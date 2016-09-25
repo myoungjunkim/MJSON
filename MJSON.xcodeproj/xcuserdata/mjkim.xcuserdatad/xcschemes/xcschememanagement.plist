@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MJSON macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MJSON watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MJSON.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>C15E34FB1D983363000BCB9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15E35201D983DB8000BCB9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15E352D1D983DE4000BCB9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15E353A1D983E07000BCB9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C15E35421D983E07000BCB9C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

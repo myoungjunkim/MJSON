@@ -1,0 +1,16 @@
+{
+    "number": 1234,
+    "text": "Swifter",
+    "bool": true,
+    "url" : "https://swifter.kr",
+    "null": null,
+    "tree1" : {
+        "tree2" : {
+            "tree3" : [
+                       {
+                       "index" : "myvalue"
+                       }
+                       ]
+        }
+    }
+}

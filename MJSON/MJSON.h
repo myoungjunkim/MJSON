@@ -2,7 +2,7 @@
 //  MJSON.h
 //  MJSON
 //
-//  Created by MJ Kim on 2016. 9. 26..
+//  Created by MJ Kim on 2016. 9. 10..
 //  Copyright © 2016년 Swifter. All rights reserved.
 //
 

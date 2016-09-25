@@ -10,6 +10,13 @@
 		C15E34FD1D983363000BCB9C /* MJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15E34F31D983363000BCB9C /* MJSON.framework */; };
 		C15E35021D983363000BCB9C /* MJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E35011D983363000BCB9C /* MJSONTests.swift */; };
 		C15E35041D983363000BCB9C /* MJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C15E34F61D983363000BCB9C /* MJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15E350E1D9833AC000BCB9C /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E350D1D9833AC000BCB9C /* Decoder.swift */; };
+		C15E35101D9833F9000BCB9C /* MJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E350F1D9833F9000BCB9C /* MJSON.swift */; };
+		C15E35121D9836BB000BCB9C /* MJSON+StateProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E35111D9836BB000BCB9C /* MJSON+StateProperty.swift */; };
+		C15E35141D9836F8000BCB9C /* MJSON+OptionalProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E35131D9836F8000BCB9C /* MJSON+OptionalProperty.swift */; };
+		C15E35161D98377A000BCB9C /* MJSON+StrictGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E35151D98377A000BCB9C /* MJSON+StrictGetter.swift */; };
+		C15E35181D983824000BCB9C /* MJSONWritableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E35171D983824000BCB9C /* MJSONWritableType.swift */; };
+		C15E351A1D983A3B000BCB9C /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = C15E35191D983A3B000BCB9C /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		C15E34FC1D983363000BCB9C /* MJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15E35011D983363000BCB9C /* MJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJSONTests.swift; sourceTree = "<group>"; };
 		C15E35031D983363000BCB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15E350D1D9833AC000BCB9C /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		C15E350F1D9833F9000BCB9C /* MJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJSON.swift; sourceTree = "<group>"; };
+		C15E35111D9836BB000BCB9C /* MJSON+StateProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJSON+StateProperty.swift"; sourceTree = "<group>"; };
+		C15E35131D9836F8000BCB9C /* MJSON+OptionalProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJSON+OptionalProperty.swift"; sourceTree = "<group>"; };
+		C15E35151D98377A000BCB9C /* MJSON+StrictGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MJSON+StrictGetter.swift"; sourceTree = "<group>"; };
+		C15E35171D983824000BCB9C /* MJSONWritableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJSONWritableType.swift; sourceTree = "<group>"; };
+		C15E35191D983A3B000BCB9C /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,12 @@
 			children = (
 				C15E34F61D983363000BCB9C /* MJSON.h */,
 				C15E34F71D983363000BCB9C /* Info.plist */,
+				C15E350D1D9833AC000BCB9C /* Decoder.swift */,
+				C15E350F1D9833F9000BCB9C /* MJSON.swift */,
+				C15E35111D9836BB000BCB9C /* MJSON+StateProperty.swift */,
+				C15E35131D9836F8000BCB9C /* MJSON+OptionalProperty.swift */,
+				C15E35151D98377A000BCB9C /* MJSON+StrictGetter.swift */,
+				C15E35171D983824000BCB9C /* MJSONWritableType.swift */,
 			);
 			path = MJSON;
 			sourceTree = "<group>";
@@ -82,6 +102,7 @@
 			children = (
 				C15E35011D983363000BCB9C /* MJSONTests.swift */,
 				C15E35031D983363000BCB9C /* Info.plist */,
+				C15E35191D983A3B000BCB9C /* sample.json */,
 			);
 			path = MJSONTests;
 			sourceTree = "<group>";
@@ -149,6 +170,7 @@
 					C15E34F21D983363000BCB9C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 76GD5S4XMC;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C15E34FB1D983363000BCB9C = {
@@ -188,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15E351A1D983A3B000BCB9C /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15E35141D9836F8000BCB9C /* MJSON+OptionalProperty.swift in Sources */,
+				C15E350E1D9833AC000BCB9C /* Decoder.swift in Sources */,
+				C15E35161D98377A000BCB9C /* MJSON+StrictGetter.swift in Sources */,
+				C15E35121D9836BB000BCB9C /* MJSON+StateProperty.swift in Sources */,
+				C15E35101D9833F9000BCB9C /* MJSON.swift in Sources */,
+				C15E35181D983824000BCB9C /* MJSONWritableType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +351,7 @@
 		C15E35081D983363000BCB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 76GD5S4XMC;
@@ -334,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.swifter.MJSON;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +372,7 @@
 		C15E35091D983363000BCB9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 76GD5S4XMC;
@@ -360,6 +392,7 @@
 		C15E350B1D983363000BCB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 76GD5S4XMC;
 				INFOPLIST_FILE = MJSONTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +405,7 @@
 		C15E350C1D983363000BCB9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 76GD5S4XMC;
 				INFOPLIST_FILE = MJSONTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

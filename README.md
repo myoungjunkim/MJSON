@@ -150,7 +150,7 @@ let mjson = MJSON(object)
 let path = try mjson
     .next(0)
     .next("image")        
-    .next("hidpi_image")
+    .next("3x_image")
     .currentPath()    
 
 // path => "[0]["image"]["hidpi_image"]"

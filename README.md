@@ -156,7 +156,7 @@ let path = try mjson
 // path => "[0]["image"]["hidpi_image"]"
 ```
 
-## Go Back JSON hierarchy
+## JSON 계층 되돌아가기
 
 ```swift
 
